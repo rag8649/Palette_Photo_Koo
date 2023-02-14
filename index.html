@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koo.J.Y</title>
+    <style>
+        @font-face {
+        font-family: "LeeSeoyun";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+      body{
+        font-family: "LeeSeoyun";
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        background-image: url("./background.png");
+      }
+      .container{
+        width: 390px;
+        background-color: #235E9C;
+        height: 100%
+      }
+      .photos{
+        margin-top: 30px;
+      }
+      .photo-frame{
+        background-color: white;
+        margin: 15px 20px;
+        height: 200px;
+        background-size:contain;
+        position: relative;
+      }
+      .footer{
+
+        display: flex;
+       align-items: center;
+        flex-direction: column;
+      }
+      .f-sentence{
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+        position: center;
+      }
+      .logo-frame{
+        
+        margin: 20px 50px;
+        height: 55px;
+        width: 40%;
+        background-size: contain;
+        position: relative;
+      }
+
+      
+      #image1{
+        background-image: url("./img1.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+      #image2{
+        background-image: url("./img2.jpg");
+        background-size: cover;
+        background-position: center;
+
+      }
+      #image3{
+        background-image: url("./img3.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+      #image4{
+        background-image: url("./img4.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+      #logo{
+        background-image: url("./Pallet_logo.jpg");
+        background-position: center;
+      }
+      .photo_description{
+        color: white;
+        background-color: black;
+
+        width: fit-content;
+        padding: 0 20px;
+        margin-bottom: 10px;
+        position: absolute;
+        bottom: 0;
+        transform: translate(-50%);
+        left: 50%;
+      }
+
+
+    </style>
+</head>
+<body>
+    <div class = "container">
+      <div class = "photos">
+        <div id = "image1" class = "photo-frame"></div>
+        <div id = "image2" class = "photo-frame"></div>
+        <div id = "image3" class = "photo-frame"></div>
+        <div id = "image4" class = "photo-frame">
+            <span id = "desc4" class="photo_description">
+                우리는 21 곤듀~ >.<
+            </span>
+        </div>
+      </div>
+      <div class="footer">
+        <div id = "logo" class = "logo-frame"></div>
+        <p class = "f-sentence">&nbsp;&nbsp;&nbsp;Filling the world<br>with colors of love</p>
+        </div>
+    </div>
+    
+</body>
+</html>
